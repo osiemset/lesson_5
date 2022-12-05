@@ -1,0 +1,245 @@
+body{
+    font-family: 'Open Sans', sans-serif;  
+}
+
+
+.header{
+ margin-top: 53px;
+ margin-bottom: 52px;
+}
+
+.container{
+    max-width: 1284px;
+    margin: 0 auto;
+
+}
+
+.nav_ul{
+text-align: center;
+}
+
+.nav_li{
+display: inline-block;
+
+}
+
+.nav_li:not(:last-of-type){
+    margin-right: 50px;
+}
+
+.nav_link{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.section{
+    text-align: center;
+    background-image: url(../img/pexels-harrison-candlin-2441454\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 138px 0 180px;
+}
+
+
+.section_text{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 65px;
+    color: #FFFFFF;
+    padding-top: 140px;
+    margin-bottom: 14px;
+}
+
+
+.section_button{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 420px;
+    height: 70px;
+    border: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #162C38;
+    margin-bottom: 177px;
+
+}
+
+.section_2{
+    background-color: #1A6E88B5;
+    padding: 130px 0;
+}
+
+.section_2_text{
+    margin: 0 auto;
+max-width: 726px;
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+color: #FFFFFF;
+}
+
+.section_3{
+    text-align: center;
+    width: 696px; 
+    margin-top: 225px;
+   
+}
+
+.section_wrapper{
+    position: relative;
+}
+
+.section_3_tittle::before{
+    content: '';
+    width: 178px;
+    height: 121px;
+    border-radius: 0;
+    left: -412px;
+    top: -104px;
+    background-color: #BFDEFB;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.section_3_tittle::after{
+    content: '';
+    width: 178px;
+    height: 121px;
+    right: -409px;
+    top: -0.5px;
+    background-color: #BFDEFB;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.tittle_3{
+    content: '';
+    width: 178px;
+    height: 121px;
+    right: -409px;
+    top: -0.5px;
+    background-color: #BFDEFB;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: center;
+    bottom: 0px;
+}
+
+
+.section_3_tittle{
+    
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.form::before{
+    content: '';
+    width: 178px;
+    height: 121px;
+    left: -412px;
+    top:125px;
+    background-color: #BFDEFB;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0px;
+}
+
+.section_4{
+    margin-top: 216px;
+    position: relative;
+}
+
+.section_4_tittle{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    max-width: 696px;
+    margin: 0px auto;
+}
+
+.section_4_tittle:before{
+    content: '';
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5C98AB;
+    position: absolute;
+    left: 170px;
+    transform: translate(74px, -62px);
+}
+
+.section_4_tittle::after{
+    content: '';
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #BFDEFB;
+    position: absolute;
+    right: 32px;
+    top: 375px;
+    transform: translate(-123px, -190px);
+}
+
+.section_5{
+max-width: 647px;
+margin: 123px auto 41px ;
+}
+
+.section_5_wrapper{
+    position: relative;
+    margin-bottom: 41px;
+}
+
+.section_label{
+    position: absolute;
+    left:-32px ;
+    top:-33px ;
+    transform: translate(60px, 47px);
+}
+
+.section_5_input{
+    width: 647px;
+    height: 96px;
+    padding: 33px 0px 14px 32px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.section_5_input::placeholder{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;  
+    color: #000000;
+}
+
+.section_5_main{
+    margin: 0px auto;
+    max-width: 647px;
+}
+
+.section_5_button{
+    width: 100%;
+    height: 92px;
+    background: #5C98AB;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+
+
